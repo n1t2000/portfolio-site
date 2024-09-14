@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="content-head">
+          <div class="logo">
+            <a href="#">
+              <h2 class="logo-text"><span>U</span>ldana</h2>
+            </a>
+          </div>
+          <div class="menu" id="menu">
+            <ul class="menu_lists">
+              <li><a href="#block1">Мен</a></li>
+              <li><a href="shara.html">Бағдарлама</a></li>
+              <li><a href="students.html">Сынып</a></li>
+            </ul>
+            <button class="btn-burger" id="btn-burger">
+              <img src="photos/open.png" id="burgerImg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main" id="main">
+      <div class="container">
+        <div class="content-main">
+          <div class="main-text-cont">
+            <div class="text1">
+              <h2>Сәлем, мен</h2>
+              <h1>Қартабаева Ұлдана Алықызы</h1>
+            </div>
+            <div class="text2">
+              <p>
+                Кемел келешекке қойған ұстаздық мақсатым: болашағы балғын,
+                жігері жалынды, арманы арынды, дарабоз дарынды шәкірттерді
+                тағылымды тәліммен тәрбиелеу
+              </p>
+            </div>
+            <div class="btn_main">
+              <div class="btn1-main">
+                <a href="#">
+                  <div class="text">Мен туралы</div>
+                  <div class="logo">
+                    <i class="fi fi-rr-user"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="btn2-main">
+                <a href="#">
+                  <div class="text">Проекттер</div>
+                  <div class="logo">
+                    <i class="fi fi-rr-edit-alt"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-ph-cont">
+            <img src="photos/main.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="block1" id="block1">
+      <div class="container">
+        <div class="content-b1">
+          <div class="cont-b1-1">
+            <div class="text-b1-1">
+              <h1>Мен туралы</h1>
+            </div>
+            <div class="text-b1-2">
+              <p>
+                Hi, my name is Jayjay Dinero Dinero, i am a Fullstack web
+                developer, UI designer, and Mobile developer. I jhave honed my
+                skills in Web Development and advance i have core understanding
+                of advance UI design principles. Here are the major skiills i
+                have.
+              </p>
+            </div>
+          </div>
+          <div class="cont-b1-2">
+            <div class="card-b1 card-b1-1">
+              <div class="img-cardb1">
+                <i class="fi fi-bs-meeting"></i>
+              </div>
+              <div class="text-cardb1">
+                <h1>Ата-ана және оқушымен дұрыс коммуникация құру</h1>
+              </div>
+            </div>
+            <div class="card-b1 card-b1-2">
+              <div class="img-cardb1">
+                <i class="fi fi-bs-woman-scientist"></i>
+              </div>
+              <div class="text-cardb1">
+                <h1>Оқыту мен оқуда АКТ -ны пайдалану</h1>
+              </div>
+            </div>
+            <div class="card-b1 card-b1-3">
+              <div class="img-cardb1">
+                <i class="fi fi-rr-lightbulb-head"></i>
+              </div>
+              <div class="text-cardb1">
+                <h1>Жаңашыл идеяларды қабылдау</h1>
+              </div>
+            </div>
+            <div class="card-b1 card-b1-4">
+              <div class="img-cardb1">
+                <i class="fi fi-tr-holding-hand-brain"></i>
+              </div>
+              <div class="text-cardb1">
+                <h1>Оқушылардың іс-әрекетіне психологиялық талдау жасай алу</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block1-2" id="block1-2">
+      <div class="container">
+        <div class="content-b12">
+          <div class="card-b12 card-b12-1">
+            <div class="img">
+              <img src="photos/diplom1.jpeg" alt="" />
+            </div>
+            <div class="text">
+              <h1>Санаты педагог-модератор</h1>
+            </div>
+          </div>
+          <div class="card-b12 card-b12-2">
+            <div class="text">
+              <h1>
+                Абай атындағы Қазақ Ұлттық Педагогикалық Университінің
+                Информатика мамандығын тәмәмдаған
+              </h1>
+            </div>
+            <div class="img">
+              <img src="photos/diplom2.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="btn-b12">
+            <button id="openModalBtn">Толығырақ</button>
+
+            <!-- Всплывающее окно -->
+            <div id="myModal" class="modal">
+              <!-- Содержимое окна -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="card-model card-model-1">
+                  <img src="photos/algys1.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-2">
+                  <img src="photos/algys2.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-3">
+                  <img src="photos/algys3.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-4">
+                  <img src="photos/algys4.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-5">
+                  <img src="photos/algys5.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-6">
+                  <img src="photos/algys6.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-7">
+                  <img src="photos/algys7.jpeg" alt="" />
+                </div>
+                <div class="card-model card-model-8">
+                  <img src="photos/algys8.jpeg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block2 block" id="block2">
+      <div class="container">
+        <div class="content-b2">
+          <div class="cont-b2-1">
+            <h1>
+              Ұлттық жаңа сананы ұлттық құндылықтар арқылы қалыптастыруға болады
+            </h1>
+            <h2>Біртұтас тәрбие бағдарламасының құндылықтары</h2>
+            <img src="photos/logo2.png" alt="" />
+          </div>
+          <div class="cont-b2-2">
+            <div class="card-b2 card-b2-1">
+              <div class="img-b2">
+                <i class="fi fi-rr-sun"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Тәуелсіздік және <br />
+                  Отаншылдық
+                </h1>
+              </div>
+            </div>
+            <div class="card-b2 card-b2-2">
+              <div class="img-b2">
+                <i class="fi fi-rr-hands-heart"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Бірлік және <br />
+                  Ынтымақ
+                </h1>
+              </div>
+            </div>
+            <div class="card-b2 card-b2-3">
+              <div class="img-b2">
+                <i class="fi fi-ss-lawyer-man"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Әділдік және <br />
+                  Жауапкершілік
+                </h1>
+              </div>
+            </div>
+            <div class="card-b2 card-b2-4">
+              <div class="img-b2">
+                <i class="fi fi-ss-equality"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Заң және <br />
+                  Тәртіп
+                </h1>
+              </div>
+            </div>
+            <div class="card-b2 card-b2-5">
+              <div class="img-b2">
+                <i class="fi fi-br-briefcase"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Еңбекқорлық және <br />
+                  Кәсіби біліктілік
+                </h1>
+              </div>
+            </div>
+            <div class="card-b2 card-b2-6">
+              <div class="img-b2">
+                <i class="fi fi-rr-lightbulb-on"></i>
+              </div>
+              <div class="text-b2">
+                <h1>
+                  Жасампаздық және <br />
+                  Жаңашылдық
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block3 block" id="block3">
+      <div class="container">
+        <div class="content-b3">
+          <div class="main-b3-cont">
+            <h1>ОТБАСЫММЕН <span>BOOK TIME</span></h1>
+          </div>
+          <div class="cards-b3">
+            <div class="card-b3 card-b3-1">
+              <div class="icon-b3">
+                <i class="fi fi-ss-star-exclamation"></i>
+              </div>
+              <div class="text-b3">
+                <h1>Жобаның мақсаты</h1>
+                <p>
+                  Бала мен ата-ананың бірлесіп оқуы арқылы кітап оқуға
+                  құштарлығын арттырып, отбасылық оқу дәстүрін қалыптастыру,
+                  оқырман отбасы санын көбейту.
+                </p>
+              </div>
+            </div>
+            <div class="card-b3 card-b3-2">
+              <div class="icon-b3">
+                <i class="fi fi-ss-star-exclamation"></i>
+              </div>
+              <div class="text-b3">
+                <h1>Жобаның міндеті</h1>
+                <ul>
+                  <li>Оқып үйрену</li>
+                  <li>Мазмұнын ашу</li>
+                  <li>Бірлесіп оқу</li>
+                  <li>Көпшілікен бөлісу</li>
+                  <li>Ұйымдастыру</li>
+                  <li>Сахналау</li>
+                  <li>Қызығушылығын арттыру</li>
+                  <li>Марапаттау</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-b3 card-b3-3">
+              <div class="icon-b3">
+                <i class="fi fi-ss-star-exclamation"></i>
+              </div>
+              <div class="text-b3">
+                <h1>Жобаның күтілетін нәтижесі</h1>
+                <ul>
+                  <li>
+                    отбасымен оқыған кітаптарын талдай отырып, рухани
+                    тәлім-тәрбие алады;
+                  </li>
+                  <li>отбасылық оқу дәстүрі қалыптасады;</li>
+                  <li>
+                    өзіндік пікірі , ой-талғамы, сөйлеу мәнері, сөздік қоры
+                    қалыптасады.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-b3 card-b3-4">
+              <div class="icon-b3">
+                <i class="fi fi-ss-star-exclamation"></i>
+              </div>
+              <div class="text-b3">
+                <h1>Жобаға қатысушылар</h1>
+                <ul>
+                  <li>7 “А” сынып оқушылары</li>
+                  <li>Ата-аналар</li>
+                  <li>Әкелер мектебі</li>
+                  <li>Аналар мектебі</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-b3 card-b3-5">
+              <div class="icon-b3">
+                <i class="fi fi-ss-star-exclamation"></i>
+              </div>
+              <div class="text-b3">
+                <h1>Жүзеге асыру жолдары</h1>
+                <ul>
+                  <li>ата-анамен бірлескен іс-шаралар</li>
+                  <li>
+                    интеллектуалды, мәдени-шығармашылық шаралар, квест ойындары
+                  </li>
+                  <li>саяхат</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="cards2-b3">
+            <div class="card-ph-cards">
+              <div class="card-b32 card-b32-1">
+                <div class="icon-text">
+                  <i class="fi fi-br-book-alt"></i>
+                  <h1>ҰЛТТЫҚ МҮДДЕ</h1>
+                </div>
+                <div class="text-b3">
+                  <p>
+                    ҚАЗАҚ ЖАЗУШЫЛАРЫНЫҢ ШЫҒАРМАЛАРЫН ОҚУ, ДӘРІПТЕУ, ӨЗГЕГЕ
+                    ҰСЫНУ, ТАНЫМАЛ АҚЫН-ЖАЗУШЫЛАРДЫҢ ӨЛЕҢІН ЖАТҚА АЙТУҒА
+                    ДАҒДЫЛАНУ
+                  </p>
+                </div>
+              </div>
+              <div class="card-b32 card-b32-2">
+                <div class="icon-text">
+                  <i class="fi fi-br-book-alt"></i>
+                  <h1>АР-ҰЯТ</h1>
+                </div>
+                <div class="text-b3">
+                  <p>
+                    ОТБАСЫНДА КІТАП ОҚУ АРҚЫЛЫ БАЛАҒА ТӘРБИЕ БЕРУ МӘДЕНИЕТІН
+                    ҚАЛЫПТАСТЫРУ. АТА-АНА МЕН БАЛА АРАСЫНДАҒЫ ҚАРЫМҚАТЫНАСТЫ
+                    НЫҒАЙТУ
+                  </p>
+                </div>
+              </div>
+              <div class="card-b32 card-b32-3"></div>
+              <div class="icon-text">
+                <i class="fi fi-br-book-alt"></i>
+                <h1>ТАЛАП</h1>
+              </div>
+              <div class="text-b3">
+                <p>
+                  БАЛАҒА КІТАПҚА ДЕГЕН ҚЫЗЫҒУШЫЛЫҒЫН АТА-АНАСЫНЫҢ ҮЛГІСІНДЕ
+                  КӨРСЕТУ, КІТАП ОҚУҒА ТАЛАПТАНДЫРУ
+                </p>
+              </div>
+            </div>
+            <div class="ph-b3">
+              <img src="photos/zhoba1.jpg" alt="" />
+              <img src="photos/zhoba3.jpg" alt="" />
+              <img src="photos/zhoba4 (1).jpg" alt="" />
+              <img src="photos/zhoba4 (2).jpg" alt="" />
+            </div>
+          </div>
+          <div class="text-b3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block5" id="block5">
+      <div class="container">
+        <div class="content-b5">
+          <div class="cont-b5-1">
+            <div class="img1-b5">
+              <img src="photos/arnur1.jpg" alt="" />
+            </div>
+            <div class="img2-b5">
+              <img src="photos/arnur3.jpg" alt="" />
+            </div>
+            <div class="img3-b5">
+              <img src="photos/arnur2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="cont-b5-2">
+            <div class="card-b5-1">
+              <div class="icon-b5">
+                <i class="fi fi-br-question"></i>
+              </div>
+              <div class="text-b5">
+                <p>
+                  Бұл - <span>Сергазиев Арнұр</span>. Сабақта тыныш отыруы қиын
+                  оқушы. Сонымен қатар мұғалімдермен, басқа оқушылармен тіл
+                  табыса алмай, сөзге келіп қалады. Пән мұғалімдерінен
+                  ескертулер түсе бастағаннан мен жағдайды талдауға кірістім.
+                  Себебі бала не үшін өзін олай ұстайды деген сұраққа жауап
+                  іздедім.
+                </p>
+              </div>
+            </div>
+            <div class="card-b5-2">
+              <div class="icon-b5">
+                <i class="fi fi-tr-answer"></i>
+              </div>
+              <div class="text-b5">
+                <p>
+                  Келесі әрекетім бұл гипотезаны құру болды, себебі кез-келген
+                  бала өз мінез-құлқымен сигнал жібереді. Мысалы:"маған қиын,
+                  мен жеңе алмаймын". Немесе: "маған назар аударыңдар" дегендей.
+                  Бұл жағдайда балаға бас сала ұрысқым келмеді, керісінше балаға
+                  оның жағында екенімді көрсеткім келді. Алдыма келген оқушыма
+                  алдымен сенім ұялатуға тырыстым. Баламен әрі қарай түсіндіру
+                  жұмыстарын жүргізу мақсатында көмек көрсете алатын арнайы топ
+                  құрдым. Психолог мамандары мен тәрбие орынбасарларымен бірлесе
+                  бұл оқушының түпкі проблемасын анықтап, шешімін тауып,
+                  ынталандырдық. Баланы жақын тани келе спортқа қызығушылығы бар
+                  екенін және спорттық іс-шараларды ұйымдастыруға қабілеті бар
+                  екенін байқап, сыныптың спорт министрі етіп тағайындадым.
+                  Нәтижесінде бала жауапкершілікті сезінді. Сынып оқушылары
+                  арасында асық ату, бес тас ойындарын ұйымдастырып, басқа
+                  оқушылармен жақсы тіл табыса бастады. Мектептің қоғамдық
+                  іс-шараларына белсене қатысып, мұғалімдердің де жылы ықыласына
+                  бөленуде.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block6" id="block6">
+      <div class="container">
+        <div class="content-b6">
+          <div class="cont-b6-1">
+            <div class="main-text-b6">
+              <h1>Ұстаз және ата — аналар қарым – қатынасының функциялары</h1>
+            </div>
+            <div class="cards-b6">
+              <div class="card-b6 card-b9-1">
+                <div class="icon-b6"><i class="fi fi-rr-circle-1"></i></div>
+                <div class="text-b6">
+                  <h1>тәрбиелік — дамытушылық</h1>
+                </div>
+              </div>
+              <div class="card-b6 card-b9-2">
+                <div class="icon-b6"><i class="fi fi-rr-circle-2"></i></div>
+                <div class="text-b6">
+                  <h1>қалыптастырушылық</h1>
+                </div>
+              </div>
+              <div class="card-b6 card-b9-3">
+                <div class="icon-b6"><i class="fi fi-rr-circle-3"></i></div>
+                <div class="text-b6">
+                  <h1>бақылаушылық</h1>
+                </div>
+              </div>
+              <div class="card-b6 card-b9-4">
+                <div class="icon-b6"><i class="fi fi-rr-circle-4"></i></div>
+                <div class="text-b6">
+                  <h1>тұрмыстық</h1>
+                </div>
+              </div>
+              <div class="card-b6 card-b9-5">
+                <div class="icon-b6">
+                  <i class="fi fi-rr-circle-5"></i>
+                </div>
+                <div class="text-b6">
+                  <h1>хабарламалық</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cont-b6-2">
+            <div class="akeler-mektep">
+              <div class="text-ake">
+                <h1>Әкелер мектебі</h1>
+              </div>
+              <div class="imgs-ake">
+                <div class="img1-ake">
+                  <img src="photos/ata-ana1.jpg" alt="" />
+                </div>
+                <div class="img1-ake">
+                  <img src="photos/ata-ana2.jpg" alt="" />
+                </div>
+                <div class="img1-ake">
+                  <img src="photos/ata-ana3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="ata-ana">
+              <div class="text-ata-ana">
+                <h1>Ата-аналар</h1>
+              </div>
+              <div class="imgs-ata-ana">
+                <div class="img1-ake">
+                  <img src="photos/ata-ana4.jpg" alt="" />
+                </div>
+                <div class="img1-ake">
+                  <img src="photos/ata-ana6.jpg" alt="" />
+                </div>
+                <div class="img1-ake">
+                  <img src="photos/ata-ana7.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block4" id="block4">
+      <div class="container">
+        <div class="content-b4">
+          <div class="cont-b4-1">
+            <div class="text-b4">
+              <h1>Байланыс</h1>
+              <h3>Егерде менің портфолиам қызық болса</h3>
+            </div>
+            <div class="contuct-b4">
+              <ul>
+                <li>
+                  <a href="#"><i class="fi fi-brands-facebook"></i></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/8a_synyp_jastary?igsh=MXJ5ZG9wa3Zhd3NhYQ%3D%3D&utm_source=qr"
+                    ><i class="fi fi-brands-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fi fi-brands-whatsapp"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cont-b4-2">
+            <div id="chat-box"></div>
+
+            <input type="text" id="input-box" placeholder="Type a message..." />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="content_b5">
+          <div class="cont-b5-4">
+            <ul class="footer-menu">
+              <li><a href="#">Мен</a></li>
+              <li><a href="#">Бағдарлама</a></li>
+              <li><a href="#">Сынып</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
