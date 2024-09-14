@@ -250,6 +250,10 @@
     display: flex;
     flex-direction: column;
   }
+  .content-ph-stud img {
+  max-width: 100px;
+  border-radius: 8px;
+}
 }
 
 /* ANIMATION LIG*/
