@@ -257,6 +257,10 @@
   .content-b12 h1{
     font-size:15px;
   }
+   #chat-box {
+    width: 300px;
+    height: 200px;
+  }
 }
 
 /* ANIMATION LIG*/
