@@ -6,39 +6,39 @@ const inputBox = document.getElementById("input-box");
 const books = [
   {
     title: "Ер төстік",
-    imageUrl: "/photos/book1.jpeg",
+    imageUrl: "photos/book1.jpeg",
   },
   {
     title: "Абай жолы 2 ТОМ",
-    imageUrl: "/photos/book2.jpeg",
+    imageUrl: "photos/book2.jpeg",
   },
   {
     title: "Менің атым Қожа",
-    imageUrl: "/photos/book3.jpeg",
+    imageUrl: "photos/book3.jpeg",
   },
   {
     title: "Ұшқан ұя",
-    imageUrl: "/photos/book4.jpeg",
+    imageUrl: "photos/book4.jpeg",
   },
   {
     title: "Көксерек",
-    imageUrl: "/photos/book5.jpeg",
+    imageUrl: "photos/book5.jpeg",
   },
   {
     title: "Шалқан",
-    imageUrl: "/photos/book6.jpeg",
+    imageUrl: "photos/book6.jpeg",
   },
   {
     title: "Құлагер",
-    imageUrl: "/photos/book7.jpeg",
+    imageUrl: "photos/book7.jpeg",
   },
   {
     title: "Махаббат қызық мол жжылдар",
-    imageUrl: "/photos/book8.jpeg",
+    imageUrl: "photos/book8.jpeg",
   },
   {
     title: "Гауһартас",
-    imageUrl: "/photos/book9.jpeg",
+    imageUrl: "photos/book9.jpeg",
   },
 ];
 
